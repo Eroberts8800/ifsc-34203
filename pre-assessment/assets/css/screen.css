@@ -73,6 +73,13 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+#content img{
+	float:right;
+	margin: 0 0 10px 10px;
+	max-width:300px;
+	border: 10px solid #000;
+}
+
 #footer {
 	background-color: #000;
 	color: #FFF;
