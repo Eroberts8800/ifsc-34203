@@ -27,22 +27,22 @@ main{
 }
 
 header.primary, footer.primary{
-    width: 908px;
-    margin: 20px;
+    width: 95.78%;
+    margin: 2.109%;
     background-color: lightgray;
     float: left;
 }
 
 #blog{
-  width: 444px;
+  width: 46.835%;
   float: left;
   background-color: lightblue;
-  margin-left: 20px;
+  margin-left: 2.109%;
 }
 
 aside{
-  width: 444px;
+  width:46.835%;
   float: left;
   background-color: rgb(20, 121, 25);
-  margin-left: 20px;
+  margin-left: 2.109%;
 }
