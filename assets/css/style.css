@@ -7,7 +7,7 @@
 body 
 {
     font-family: 'Garamond', serif;
-    background-color: #f8f9fa;
+    background-color: #181616;
     color: #2d3748;
     line-height: 5.0;
     min-height: 100vh;
@@ -18,7 +18,8 @@ body
 
 header
 {
-    background-color: #1a5f74;
+    border:black solid 4px;
+    background-image: url(/assets/img/blacksand.jpg);
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -26,8 +27,9 @@ header
 
 footer
 {
-     margin-top: auto;
-    background-color: #1a5f74;
+    border:black solid 4px;
+    background-image: url(/assets/img/blacksand.jpg);
+    margin-top: auto;
     color: white;
     text-align: center;
 }
