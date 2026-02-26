@@ -77,7 +77,7 @@ nav a
 @media screen and (any-hover: hover)
 {
     nav a:hover {
-        background-color: #507bf1;
+        background-color: #3f3d3d;
         border: 10px solid #f1c650;
     }
 }
