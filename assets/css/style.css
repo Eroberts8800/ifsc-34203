@@ -18,7 +18,7 @@ header
 {
     border:black solid 4px;
     background-image: url(/assets/img/blacksand.jpg);
-    color: white;
+    color: #f1c650;
     padding: 1rem 0;
     text-align: center;
 }
@@ -28,7 +28,7 @@ footer
     border:black solid 4px;
     background-image: url(/assets/img/blacksand.jpg);
     margin-top: auto;
-    color: white;
+    color: #f1c650;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ nav a
 {
     display: block;
     background-color: #3f3d3d;
-    color: #507bf1;
+    color: #f1c650;
     text-decoration: none;
     padding: 2rem 1rem;
     border-radius: 12px;
@@ -77,6 +77,7 @@ nav a
 @media screen and (any-hover: hover)
 {
     nav a:hover {
-        background-color: #73cf73e1;
+        background-color: #507bf1;
+        border: 10px solid #f1c650;
     }
 }
