@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Responsive Image Demo</title>
+
+  <link rel="stylesheet" href="/responsive-image-demo/assets/css/stylesheet.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Responsive Image Demo</h1>
+  </header>
+
+  <main>
+    <section class="container">
+
+      <img 
+        src="assets/img/skate-400.jpg"
+        srcset="
+          assets/img/skate-400.jpg 400w,
+          assets/img/skate-800.jpg 800w,
+          assets/img/skate-1200.jpg 1200w
+        "
+        sizes="
+          (max-width: 600px) 100vw,
+          (max-width: 1024px) 75vw,
+          50vw
+        "
+        alt="Responsive demo image"
+        loading="lazy"
+      >
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ethan Roberts</p>
+  </footer>
+
+</body>
+</html>

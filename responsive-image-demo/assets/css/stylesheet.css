@@ -1,0 +1,32 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Container to center content */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 15px;
+  border-radius: 10px;
+}
