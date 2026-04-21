@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Audio Player</title>
+</head>
+<body>
+
+  <audio controls>
+    <source src="/audio-demo/assets/audio/thunder.ogg" type="audio/ogg" />
+    <source src="/audio-demo/assets/audio/thunder.mp3" type="audio/mpeg" />
+    <source src="/audio-demo/assets/audio/thunder.wav" type="audio/wav" />
+
+    <!-- Flash fallback -->
+    <p class="audioplayer_container">
+      <span id="audioplayer">
+        <a href="/audio-demo/assets/audio/thunder.mp3">Download the audio</a>
+      </span>
+    </p>
+
+  </audio>
+
+  <script src="/audio-demo/assets/js/audio-player.js"></script>
+  <script>
+    AudioPlayer.setup("/audio-demo/assets/swf/player.swf", { width: 290 });
+    AudioPlayer.embed("audioplayer", { soundFile: "/audio-demo/assets/audio/thunder.mp3" });
+  </script>
+
+</body>
+</html>
