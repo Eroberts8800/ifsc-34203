@@ -1,0 +1,65 @@
+:root 
+{
+    --color-bg: #0a0a0a;
+    --color-accent: #f5c300;
+    --color-text: #ffffff;
+    --color-text-muted: #cccccc;
+    --font-nav: 'Impact', 'Arial Narrow', Arial, sans-serif;
+    --nav-height: 70px;
+    --border-bottom: 3px solid var(--color-accent);
+    --transition-speed: 0.2s;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+nav {
+    background-color: var(--color-bg);
+    border-bottom: var(--border-bottom);
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: relative;
+}
+
+nav > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-text);
+    font-family: var(--font-nav);
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid var(--color-accent);
+    padding-bottom: 2px;
+}
+ 
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+ 
+nav ul a {
+    text-decoration: none;
+    font-family: var(--font-nav);
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    transition: color var(--transition-speed) ease;
+}
+ 
+nav ul a.active {
+    color: var(--color-accent);
+}
+ 
+nav ul a:hover {
+    color: var(--color-accent);
+}
