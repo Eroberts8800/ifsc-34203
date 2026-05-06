@@ -1,0 +1,125 @@
+#banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#banner picture img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.5);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.banner-tag 
+{
+    display: inline-block;
+    background-color: var(--color-accent);
+    color: #000000;
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    letter-spacing: 0.15em;
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.banner-content h1 
+{
+    font-family: var(--font-nav);
+    font-size: 6rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.accent 
+{
+    color: var(--color-accent);
+}
+
+.banner-content p 
+{
+    font-family: var(--font-nav);
+    font-size: 1.1rem;
+    color: var(--color-text);
+    letter-spacing: 0.15em;
+    margin-bottom: 2rem;
+}
+
+.btn-primary,
+.btn-outline 
+{
+    display: inline-block;
+    font-family: var(--font-nav);
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin: 0 0.5rem;
+}
+
+.btn-primary 
+{
+    background-color: var(--color-accent);
+    color: #000000;
+}
+
+.btn-outline 
+{
+    background-color: transparent;
+    color: var(--color-text);
+    border: 3px solid var(--color-accent);
+}
+
+@media (hover: hover) 
+{
+    .btn-primary:hover 
+    {
+        background-color: #000000;
+        color: var(--color-accent);
+        outline: 3px solid var(--color-accent);
+    }
+
+    .btn-outline:hover 
+    {
+        background-color: var(--color-accent);
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    .banner-content h1 {
+        font-size: 4rem;
+    }
+
+    .btn-primary,
+    .btn-outline {
+        display: block;
+        margin: 0.5rem auto;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 480px) 
+{
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-content p {
+        font-size: 0.85rem;
+    }
+}
