@@ -71,3 +71,86 @@ nav ul a:hover
 {
     color: var(--color-accent);
 }
+
+#site-footer {
+    background-color: var(--color-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem 2rem 0;
+    border-top: 1px solid #333;
+}
+
+.footer-brand a {
+    font-family: var(--font-nav);
+    font-size: 1.5rem;
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 3px solid var(--color-accent);
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.footer-brand p {
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.1em;
+    margin-top: 1rem;
+}
+
+.footer-links h3,
+.footer-hours h3 {
+    font-family: var(--font-nav);
+    font-size: 1rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-links ul a {
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color var(--transition-speed) ease;
+}
+
+@media (hover: hover) {
+    .footer-links ul a:hover {
+        color: var(--color-accent);
+    }
+}
+
+.footer-hours p {
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+.footer-copy {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+.footer-copy p {
+    font-family: var(--font-nav);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.1em;
+}
