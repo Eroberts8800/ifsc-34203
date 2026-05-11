@@ -46,3 +46,27 @@ aside{
   background-color: rgb(20, 121, 25);
   margin-left: 2.109%;
 }
+
+@media (max-width: 948px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #blog,
+  aside {
+    width: 95.78%;
+    margin-left: 2.109%;
+    float: left;
+  }
+}
+
+@media (max-width: 479px) {
+  header.primary, footer.primary,
+  #blog,
+  aside {
+    width: 100%;
+    margin: 0;
+  }
+}
