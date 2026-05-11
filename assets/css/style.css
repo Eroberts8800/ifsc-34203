@@ -1,5 +1,4 @@
-:root 
-{
+:root {
     --color-bg: #181616;
     --color-text: #2d3748;
     --color-accent: #f1c650;
@@ -21,15 +20,13 @@
     --nav-tile-height: 100px;
 }
 
-*
- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body 
-{
+body {
     font-family: var(--font-family);
     background-color: var(--color-bg);
     color: var(--color-text);
@@ -38,8 +35,7 @@ body
     display: grid;
 }
 
-header
-{
+header {
     border: var(--border-style);
     background-image: var(--header-bg);
     color: var(--color-accent);
@@ -47,8 +43,7 @@ header
     text-align: center;
 }
 
-footer 
-{
+footer {
     border: var(--border-style);
     background-image: var(--header-bg);
     margin-top: auto;
@@ -56,8 +51,7 @@ footer
     text-align: center;
 }
 
-nav ul 
-{
+nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -65,8 +59,7 @@ nav ul
     padding: var(--spacing-sm);
 }
 
-nav a 
-{
+nav a {
     display: block;
     background-color: var(--color-nav-tile);
     color: var(--color-accent);
@@ -79,34 +72,20 @@ nav a
     height: var(--nav-tile-height);
 }
 
-@media screen and (max-width: 1024px) 
-{
-    nav ul 
-    {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 600px) 
-{
-
-    nav ul 
-    {
+@media (max-width: 767px) {
+    nav ul {
         grid-template-columns: 1fr;
     }
 
-    nav a 
-    {
+    nav a {
         font-size: calc(var(--font-size-nav) * 0.9);
         height: auto;
         padding: var(--spacing-sm);
     }
 }
 
-@media screen and (any-hover: hover) 
-{
-    nav a:hover 
-    {
+@media (any-hover: hover) {
+    nav a:hover {
         background-color: var(--color-nav-tile);
         border: 10px solid var(--color-border-hover);
     }
