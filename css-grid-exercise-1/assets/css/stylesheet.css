@@ -67,3 +67,27 @@ aside{
     grid-row: 1 / 2;
      background-color: rgb(20, 121, 25);
 }
+
+@media (max-width: 767px) {
+    main {
+        width: 100%;
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+
+    header.primary,
+    footer.primary {
+        grid-column: 1;
+    }
+
+    #content {
+        grid-column: 1;
+        display: block;
+    }
+
+    #blog,
+    aside {
+        grid-column: 1;
+        width: 100%;
+    }
+}
