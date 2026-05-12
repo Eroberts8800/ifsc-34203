@@ -147,39 +147,115 @@
     line-height: 1.6;
 }
 
-@media screen and (max-width: 1024px) 
+#setup
 {
-    .cards 
-    {
-        gap: 1.2rem;
-    }
+    background-color: var(--color-bg);
+    padding: 5rem 2rem;
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) 
+#setup h2
 {
-    .cards 
-    {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #why h2 
-    {
-        font-size: 2.5rem;
-    }
+    font-family: var(--font-nav);
+    font-size: 3.5rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.3rem;
 }
 
-@media screen and (max-width: 480px)
- {
-    #why h2 
-    {
-        font-size: 2rem;
-    }
+#setup h2 span
+{
+    color: var(--color-accent);
+}
 
-    .card 
-    {
-        padding: 1.5rem;
-    }
+#setup h2::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto 0;
+}
+
+#setup hr
+{
+    display: none;
+}
+
+#setup > p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.15em;
+    margin-bottom: 3rem;
+}
+
+#setup ul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    list-style: none;
+    padding: 0;
+}
+
+#setup li
+{
+    position: relative;
+    border: 3px solid var(--color-accent);
+    overflow: hidden;
+    aspect-ratio: 16/9;
+}
+
+#setup li img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.75);
+    transition: transform var(--transition-speed) ease, filter var(--transition-speed) ease;
+}
+
+#setup figcaption
+{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    text-align: left;
+}
+
+#setup figcaption h3
+{
+    font-family: var(--font-nav);
+    font-size: 2rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.3rem;
+    line-height: 1;
+}
+
+#setup figcaption p
+{
+    font-family: var(--font-nav);
+    font-size: 0.75rem;
+    color: var(--color-text);
+    letter-spacing: 0.15em;
+    margin: 0;
+}
+
+#setup a
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 @media (hover: hover) 
@@ -196,30 +272,88 @@
         background-color: var(--color-accent);
         color: #000000;
     }
+
+    #setup li:hover img
+    {
+        transform: scale(1.05);
+        filter: brightness(0.5);
+    }
+
+    #setup a:hover
+    {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 1024px) 
+{
+    .cards 
+    {
+        gap: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 768px) 
 {
-    .banner-content h1 {
+    .banner-content h1 
+    {
         font-size: 4rem;
     }
 
     .btn-primary,
-    .btn-outline {
+    .btn-outline 
+    {
         display: block;
         margin: 0.5rem auto;
         width: fit-content;
     }
-}
 
-@media screen and (max-width: 480px) 
-{
-    .banner-content h1 {
+    .cards 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why h2 
+    {
         font-size: 2.5rem;
     }
 
-    .banner-content p {
-        font-size: 0.85rem;
+    #setup h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #setup ul
+    {
+        grid-template-columns: 1fr;
     }
 }
 
+@media screen and (max-width: 480px)
+{
+    .banner-content h1 
+    {
+        font-size: 2.5rem;
+    }
+
+    .banner-content p 
+    {
+        font-size: 0.85rem;
+    }
+
+    #why h2 
+    {
+        font-size: 2rem;
+    }
+
+    .card 
+    {
+        padding: 1.5rem;
+    }
+
+    #setup h2
+    {
+        font-size: 2rem;
+    }
+}

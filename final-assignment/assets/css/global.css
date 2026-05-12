@@ -95,7 +95,7 @@ nav ul a:hover
     background-color: var(--color-bg);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 4rem 2rem 0;
     border-top: 1px solid #333;
 }
