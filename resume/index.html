@@ -9,7 +9,6 @@
 
 <body>
   <header class="container" id="top">
-    <!-- Main navigation -->
     <nav class="primary">
       <ul>
         <li><a href="#about">About</a></li>
@@ -20,7 +19,6 @@
   </nav>
 </header>
 
-<!-- Main -->
 <main itemscope itemtype="https://schema.org/Person" class="container">
   <h1 class="page-title" itemprop="name">Ethan Roberts</h1>
 
@@ -46,14 +44,12 @@
       <dd itemprop="nationality">United States</dd>
 
       <dt>Location</dt>
-      <!-- Keep original text, but model as Place for better schema correctness -->
       <dd itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
         <span itemprop="name">Arkansas</span>
       </dd>
 
       <dt>Telephone</dt>
       <dd>
-        <!-- tel: should be digits; keep visible text as-is -->
         <a itemprop="telephone" href="tel:5555555555">555.555.555.5555</a>
       </dd>
 
@@ -95,12 +91,9 @@
   <section id="experience">
     <h2>Experience</h2>
 
-    <!-- current job -->
     <article class="job">
-      <!-- jobTitle is valid on Person; this is still within Person scope -->
       <h3 itemprop="jobTitle">Logistics Specialist</h3>
 
-      <!-- worksFor is valid on Person -->
       <div itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
         <span itemprop="name">Dumpster Logistics</span>
         <span>November 2022 - Present</span>
@@ -116,7 +109,6 @@
       </div>
     </article>
 
-    <!-- Previous Jobs -->
     <article class="job">
       <h3 itemprop="jobTitle">Military Police Watch Captain</h3>
 
@@ -130,8 +122,7 @@
           </span>
         </span>
       </span>
-
-      <!-- Keep original visible date format; Google won't bind it perfectly, but it won't warn -->
+      
       <div>
         <span>August 2020</span> -
         <span>November 2022</span>
@@ -175,7 +166,6 @@
   </section>
 </main>
 
-<!-- Footer -->
 <footer>
   <div id="copyright">
     &copy; 2026 Ethan Roberts | <a href="#top">Top</a>
