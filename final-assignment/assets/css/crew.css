@@ -32,8 +32,8 @@
 
 #crew-header p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -96,8 +96,8 @@
 
 #about li p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -136,8 +136,8 @@
 
 #events > p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.15em;
     margin-bottom: 3rem;
@@ -172,8 +172,8 @@
 #events li time
 {
     display: block;
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text);
     letter-spacing: 0.1em;
     font-weight: bold;
@@ -182,8 +182,8 @@
 
 #events li p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -218,8 +218,8 @@
 
 #involved p
 {
-    font-family: var(--font-nav);
-    font-size: 0.9rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: #000000;
     letter-spacing: 0.1em;
     margin-bottom: 1rem;

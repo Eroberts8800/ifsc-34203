@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap');
+
 :root 
 {
     --color-bg: #0a0a0a;
@@ -6,6 +8,7 @@
     --color-text: #ffffff;
     --color-text-muted: #cccccc;
     --font-nav: 'Impact', 'Arial Narrow', Arial, sans-serif;
+    --font-body: 'Barlow Condensed', Arial, sans-serif;
     --nav-height: 70px;
     --border-bottom: 3px solid var(--color-accent);
     --transition-speed: 0.2s;

@@ -32,8 +32,8 @@
 
 #location-header p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -66,8 +66,8 @@
 
 #location-info article p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.05em;
     line-height: 1.8;
@@ -175,8 +175,8 @@
 
 #what-to-bring li ul li
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -217,8 +217,8 @@
 
 #parking-access > ul > li p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text);
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -234,8 +234,8 @@
 
 #parking-access > ul > li ul li
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -303,8 +303,8 @@
 
 #contact li p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--color-text-muted);
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -314,8 +314,8 @@
 {
     color: var(--color-text);
     text-decoration: none;
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     letter-spacing: 0.05em;
 }
 
@@ -339,8 +339,8 @@
 
 #contact aside p
 {
-    font-family: var(--font-nav);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: #000000;
     letter-spacing: 0.05em;
     line-height: 1.6;
