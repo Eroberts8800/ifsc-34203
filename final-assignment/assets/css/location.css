@@ -1,0 +1,447 @@
+#location-header
+{
+    background-color: var(--color-bg);
+    padding: calc(var(--nav-height) + 3rem) 3rem 4rem;
+    border-bottom: var(--border-bottom);
+    text-align: center;
+}
+
+#location-header h1
+{
+    font-family: var(--font-nav);
+    font-size: 6rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+#location-header h1 span
+{
+    color: var(--color-accent);
+}
+
+#location-header h1::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto;
+}
+
+#location-header p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+#location-info
+{
+    background-color: var(--color-bg);
+    padding: 5rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+#location-info article
+{
+    background-color: #1a1a1a;
+    border: 3px solid var(--color-accent);
+    padding: 2rem;
+}
+
+#location-info article h2
+{
+    font-family: var(--font-nav);
+    font-size: 1.5rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+#location-info article p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+}
+
+#location-info article a
+{
+    display: inline-block;
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+#what-to-bring
+{
+    background-color: var(--color-bg2);
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+#what-to-bring h2
+{
+    font-family: var(--font-nav);
+    font-size: 3.5rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+}
+
+#what-to-bring h2 span
+{
+    color: var(--color-accent);
+}
+
+#what-to-bring h2::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto 3rem;
+}
+
+#what-to-bring > ul
+{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+#what-to-bring > ul > li
+{
+    background-color: #1a1a1a;
+    padding: 2rem;
+    text-align: center;
+}
+
+#what-to-bring > ul > li.green
+{
+    border: 3px solid #22c55e;
+}
+
+#what-to-bring > ul > li.green h3
+{
+    color: #22c55e;
+}
+
+#what-to-bring > ul > li.blue
+{
+    border: 3px solid #3b82f6;
+}
+
+#what-to-bring > ul > li.blue h3
+{
+    color: #3b82f6;
+}
+
+#what-to-bring li h3
+{
+    font-family: var(--font-nav);
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+}
+
+#what-to-bring > ul > li.green ul
+{
+    list-style-type: '◆ ';
+    list-style-position: inside;
+    padding: 0;
+}
+
+#what-to-bring > ul > li.blue ul
+{
+    list-style-type: '◆ ';
+    list-style-position: inside;
+    padding: 0;
+}
+
+#what-to-bring li ul li
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding-left: 0;
+}
+
+#parking-access
+{
+    background-color: var(--color-bg);
+    padding: 3rem 3rem 5rem;
+}
+
+#parking-access > ul
+{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+#parking-access > ul > li
+{
+    background-color: #1a1a1a;
+    border: 3px solid var(--color-accent);
+    padding: 2rem;
+}
+
+#parking-access > ul > li h2
+{
+    font-family: var(--font-nav);
+    font-size: 1.5rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+#parking-access > ul > li p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+#parking-access > ul > li ul
+{
+    list-style-type: '→ ';
+    list-style-position: inside;
+    padding: 0;
+}
+
+#parking-access > ul > li ul li
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+#contact
+{
+    background-color: var(--color-bg);
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+#contact h2
+{
+    font-family: var(--font-nav);
+    font-size: 3.5rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+}
+
+#contact h2 span
+{
+    color: var(--color-accent);
+}
+
+#contact h2::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto 3rem;
+}
+
+#contact ul
+{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+}
+
+#contact li
+{
+    background-color: #1a1a1a;
+    border: 3px solid var(--color-accent);
+    padding: 2rem;
+    text-align: left;
+}
+
+#contact li h3
+{
+    font-family: var(--font-nav);
+    font-size: 1.3rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+#contact li p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
+#contact li a
+{
+    color: var(--color-text);
+    text-decoration: none;
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+#contact aside
+{
+    background-color: var(--color-accent);
+    padding: 2rem;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#contact aside h3
+{
+    font-family: var(--font-nav);
+    font-size: 1.3rem;
+    color: #000000;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+#contact aside p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: #000000;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
+@media (hover: hover)
+{
+    #location-info article a:hover
+    {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    #location-header
+    {
+        padding: calc(var(--nav-height) + 2rem) 2rem 3rem;
+    }
+
+    #location-header h1
+    {
+        font-size: 3.5rem;
+    }
+
+    #location-info
+    {
+        padding: 3rem 2rem;
+        grid-template-columns: 1fr;
+    }
+
+    #what-to-bring
+    {
+        padding: 3rem 2rem;
+    }
+
+    #what-to-bring h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #what-to-bring > ul
+    {
+        grid-template-columns: 1fr;
+    }
+
+    #parking-access
+    {
+        padding: 0 2rem 3rem;
+    }
+
+    #parking-access > ul
+    {
+        grid-template-columns: 1fr;
+    }
+
+    #contact
+    {
+        padding: 3rem 2rem;
+    }
+
+    #contact h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #contact ul
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    #location-header
+    {
+        padding: calc(var(--nav-height) + 1.5rem) 1.5rem 2.5rem;
+    }
+
+    #location-header h1
+    {
+        font-size: 2.5rem;
+    }
+
+    #location-info
+    {
+        padding: 2rem 1.5rem;
+    }
+
+    #what-to-bring h2
+    {
+        font-size: 2rem;
+    }
+
+    #parking-access
+    {
+        padding: 0 1.5rem 2rem;
+    }
+
+    #contact h2
+    {
+        font-size: 2rem;
+    }
+}
