@@ -20,7 +20,8 @@
     box-sizing: border-box;
 }
  
-nav {
+nav 
+{
     background-color: var(--color-bg);
     border-bottom: var(--border-bottom);
     height: var(--nav-height);
@@ -35,12 +36,14 @@ nav {
     z-index: 1000;
 }
 
-nav img {
+nav img 
+{
     height: 40px;
     width: auto;
 }
 
-nav > a {
+nav > a 
+{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -83,7 +86,8 @@ nav ul a:hover
     color: var(--color-accent);
 }
 
-.nav-toggle {
+.nav-toggle 
+{
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -95,14 +99,16 @@ nav ul a:hover
     padding: 0;
 }
 
-.nav-toggle span {
+.nav-toggle span 
+{
     display: block;
     width: 24px;
     height: 2px;
     background-color: white;
 }
 
-#site-footer {
+#site-footer 
+{
     background-color: var(--color-bg);
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +117,8 @@ nav ul a:hover
     border-top: 1px solid #333;
 }
 
-.footer-brand a {
+.footer-brand a 
+{
     font-family: var(--font-nav);
     font-size: 1.5rem;
     color: var(--color-text);
@@ -121,7 +128,8 @@ nav ul a:hover
     display: inline-block;
 }
 
-.footer-brand p {
+.footer-brand p 
+{
     font-family: var(--font-body);
     font-size: 0.85rem;
     color: var(--color-text-muted);
@@ -129,8 +137,32 @@ nav ul a:hover
     margin-top: 1rem;
 }
 
+.footer-brand ul
+{
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.footer-brand ul li
+{
+    margin-bottom: 0.5rem;
+}
+
+.footer-brand ul a
+{
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    border-bottom: none;
+    padding-bottom: 0;
+    display: inline;
+}
+
 .footer-links h3,
-.footer-hours h3 {
+.footer-hours h3 
+{
     font-family: var(--font-nav);
     font-size: 1rem;
     color: var(--color-accent);
@@ -138,15 +170,18 @@ nav ul a:hover
     margin-bottom: 1.5rem;
 }
 
-.footer-links ul {
+.footer-links ul 
+{
     list-style: none;
 }
 
-.footer-links ul li {
+.footer-links ul li 
+{
     margin-bottom: 1rem;
 }
 
-.footer-links ul a {
+.footer-links ul a 
+{
     font-family: var(--font-body);
     font-size: 0.85rem;
     color: var(--color-text-muted);
@@ -156,13 +191,16 @@ nav ul a:hover
     transition: color var(--transition-speed) ease;
 }
 
-@media (hover: hover) {
-    .footer-links ul a:hover {
+@media (hover: hover) 
+{
+    .footer-links ul a:hover 
+    {
         color: var(--color-accent);
     }
 }
 
-.footer-hours p {
+.footer-hours p 
+{
     font-family: var(--font-body);
     font-size: 0.85rem;
     color: var(--color-text-muted);
@@ -170,7 +208,8 @@ nav ul a:hover
     line-height: 2;
 }
 
-.footer-copy {
+.footer-copy 
+{
     width: 100%;
     text-align: center;
     border-top: 1px solid #333;
@@ -178,7 +217,8 @@ nav ul a:hover
     margin-top: 3rem;
 }
 
-.footer-copy p {
+.footer-copy p 
+{
     font-family: var(--font-body);
     font-size: 0.8rem;
     color: var(--color-text-muted);
