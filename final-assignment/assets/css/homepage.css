@@ -112,24 +112,20 @@
     margin: 1rem auto 3rem;
 }
 
-.cards 
+#why article
 {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.card 
-{
+    display: inline-block;
     background-color: var(--color-bg);
     border: 3px solid var(--color-accent);
     padding: 2rem;
     text-align: left;
     width: 100%;
     max-width: 380px;
+    vertical-align: top;
+    margin: 0 1rem;
 }
 
-.card h3 
+#why article h3
 {
     font-family: var(--font-nav);
     font-size: 1.3rem;
@@ -138,7 +134,7 @@
     margin-bottom: 1rem;
 }
 
-.card p 
+#why article p
 {
     font-family: var(--font-nav);
     font-size: 0.85rem;
@@ -192,30 +188,25 @@
     margin-bottom: 3rem;
 }
 
-#setup ul
+#setup-grid
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     max-width: 1200px;
     margin: 0 auto 3rem;
-    list-style: none;
-    padding: 0;
 }
 
-#setup li
+#setup-grid figure
 {
     position: relative;
     border: 3px solid var(--color-accent);
     overflow: hidden;
-    aspect-ratio: 16/9;
 }
 
-#setup li img
+#setup-grid figure img
 {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
     display: block;
     filter: brightness(0.75);
     transition: transform var(--transition-speed) ease, filter var(--transition-speed) ease;
@@ -273,7 +264,7 @@
         color: #000000;
     }
 
-    #setup li:hover img
+    #setup-grid figure:hover img
     {
         transform: scale(1.05);
         filter: brightness(0.5);
@@ -287,9 +278,9 @@
 
 @media screen and (max-width: 1024px) 
 {
-    .cards 
+    #why article
     {
-        gap: 1.2rem;
+        margin: 0 0.6rem;
     }
 }
 
@@ -308,10 +299,10 @@
         width: fit-content;
     }
 
-    .cards 
+    #why article
     {
-        flex-direction: column;
-        align-items: center;
+        display: block;
+        margin: 0 auto 1.5rem;
     }
 
     #why h2 
@@ -324,7 +315,7 @@
         font-size: 2.5rem;
     }
 
-    #setup ul
+    #setup-grid
     {
         grid-template-columns: 1fr;
     }
@@ -347,7 +338,7 @@
         font-size: 2rem;
     }
 
-    .card 
+    #why article
     {
         padding: 1.5rem;
     }

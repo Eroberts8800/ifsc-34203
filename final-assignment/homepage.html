@@ -10,7 +10,6 @@
     <script src="assets/jss/nav.js" defer></script>
   </head>
 
-
   <body>
     <nav>
         <a href="homepage.html"><img src="assets/img/logo.png" alt="Logo"> CONCRETE </a>
@@ -29,24 +28,22 @@
     </nav>
 
     <header id="banner">
-    <picture>
-        <source srcset="assets/img/skate-1200.jpg" media="(min-width: 1024px)">
-        <source srcset="assets/img/skate-800.jpg" media="(min-width: 768px)">
-        <img src="assets/img/skate-800.jpg" alt="Skateboarder at Concrete skate park">
-    </picture>
+        <picture>
+            <source srcset="assets/img/skate-1200.jpg" media="(min-width: 1024px)">
+            <source srcset="assets/img/skate-800.jpg" media="(min-width: 768px)">
+            <img src="assets/img/skate-800.jpg" alt="Skateboarder at Concrete skate park">
+        </picture>
+        <section class="banner-content">
+            <span class="banner-tag">SKATE HARD. STAY SAFE.</span>
+            <h1>RIDE <span class="accent">CONCRETE</span></h1>
+            <p>YOUR SPOT. YOUR CREW. YOUR SESSION.</p>
+            <a href="features.html" class="btn-primary">CHECK THE PARK →</a>
+            <a href="location.html" class="btn-outline">PULL UP</a>
+        </section>
+    </header>
 
-    <section class="banner-content">
-        <span class="banner-tag">SKATE HARD. STAY SAFE.</span>
-        <h1>RIDE <span class="accent">CONCRETE</span></h1>
-        <p>YOUR SPOT. YOUR CREW. YOUR SESSION.</p>
-        <a href="features.html" class="btn-primary">CHECK THE PARK →</a>
-        <a href="location.html" class="btn-outline">PULL UP</a>
-    </section>
-</header>
-
-<section id="why">
-    <h2>WHY WE'RE <span class="accent">DIFFERENT</span></h2>
-    <section class="cards">
+    <section id="why">
+        <h2>WHY WE'RE <span class="accent">DIFFERENT</span></h2>
         <article class="card">
             <h3>ALL LEVELS</h3>
             <p>FIRST TIME OR PRO, WE GOT SPOTS FOR EVERYONE. NO JUDGMENT ZONE.</p>
@@ -60,57 +57,52 @@
             <p>7 DAYS A WEEK. DAWN TO DUSK. YOUR SECOND HOME.</p>
         </article>
     </section>
-</section>
 
-<section id="setup">
-    <h2> THE <span> SETUP </span></h2>
-    <hr>
-    <p>CHECK OUT THE OBSTACLES</p>
+    <section id="setup">
+        <h2>THE <span>SETUP</span></h2>
+        <hr>
+        <p>CHECK OUT THE OBSTACLES</p>
+        <section id="setup-grid" aria-label="Skate park obstacles">
+            <figure>
+                <img src="assets/img/bowl.png" alt="Bowl - Deep End">
+                <figcaption>
+                    <h3>BOWL</h3>
+                    <p>DEEP END</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/img/street.png" alt="Street - Rails & Stairs">
+                <figcaption>
+                    <h3>STREET</h3>
+                    <p>RAILS &amp; STAIRS</p>
+                </figcaption>
+            </figure>
+        </section>
+        <a href="features.html">SEE ALL FEATURES</a>
+    </section>
 
-    <ul>
-        <li>
-            <img src="assets/img/bowl.png" alt="Bowl - Deep End">
-            <figcaption>
-                <h3>BOWL</h3>
-                <p>DEEP END</p>
-            </figcaption>
-        </li>
-        <li>
-            <img src="assets/img/street.png" alt="Street - Rails & Stairs">
-            <figcaption>
-                <h3>STREET</h3>
-                <p>RAILS &amp; STAIRS</p>
-            </figcaption>
-        </li>
-    </ul>
-
-    <a href="features.html">SEE ALL FEATURES</a>
-</section>
-
-<footer id="site-footer">
-    <section class="footer-brand">
-        <a href="homepage.html">CONCRETE</a>
-        <p>FOR SKATERS. BY SKATERS.</p>
-    </section>
-    <section class="footer-links">
-        <h3>QUICK LINKS</h3>
-        <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="crew.html">Crew</a></li>
-            <li><a href="rules.html">Rules</a></li>
-            <li><a href="location.html">Location</a></li>
-        </ul>
-    </section>
-    <section class="footer-hours">
-        <h3>HOURS</h3>
-        <p>MON - FRI: 8AM - 9PM</p>
-        <p>SAT - SUN: 7AM - 10PM</p>
-    </section>
-    <section class="footer-copy">
-        <p>© 2026 CONCRETE SKATEPARK</p>
-    </section>
-</footer>
+    <footer id="site-footer">
+        <aside class="footer-brand">
+            <a href="homepage.html">CONCRETE</a>
+            <p>FOR SKATERS. BY SKATERS.</p>
+        </aside>
+        <section class="footer-links">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="crew.html">Crew</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </section>
+        <section class="footer-hours">
+            <h3>HOURS</h3>
+            <p>MON - FRI: 8AM - 9PM</p>
+            <p>SAT - SUN: 7AM - 10PM</p>
+        </section>
+        <p class="footer-copy">© 2026 CONCRETE SKATEPARK</p>
+    </footer>
 
   </body>
 </html>
