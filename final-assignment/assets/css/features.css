@@ -148,6 +148,49 @@ body
     background-color: var(--color-accent);
 }
 
+#extras
+{
+    margin: 0 3rem 5rem;
+    border: 3px solid var(--color-accent);
+    background-color: #1a1a1a;
+    padding: 3rem;
+}
+
+#extras h2
+{
+    font-family: var(--font-nav);
+    font-size: 2rem;
+    color: var(--color-accent);
+    margin-bottom: 2rem;
+}
+
+#extras ul
+{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+#extras ul h3
+{
+    font-family: var(--font-nav);
+    font-size: 1rem;
+    color: var(--color-text);
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+#extras ul p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
 @media (hover: hover)
 {
     #features-list figure img
@@ -201,6 +244,16 @@ body
     {
         font-size: 2.5rem;
     }
+
+    #extras
+    {
+        margin: 0 2rem 3rem;
+    }
+
+    #extras ul
+    {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 480px)
@@ -223,5 +276,11 @@ body
     #features-list figcaption h2
     {
         font-size: 2rem;
+    }
+    
+    #extras
+    {
+        margin: 0 1.5rem 2rem;
+        padding: 2rem;
     }
 }
