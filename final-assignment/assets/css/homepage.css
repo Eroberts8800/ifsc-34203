@@ -310,6 +310,11 @@
         font-size: 2.5rem;
     }
 
+    #why-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
     #setup h2
     {
         font-size: 2.5rem;

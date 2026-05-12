@@ -337,6 +337,59 @@
     color: var(--color-text);
 }
 
+@media screen and (max-width: 1024px)
+{
+    #rules-header h1
+    {
+        font-size: 5rem;
+    }
+
+    #park-rules
+    {
+        padding: 4rem 2rem;
+    }
+
+    #park-rules h2
+    {
+        font-size: 3rem;
+    }
+
+    #more-rules
+    {
+        padding: 4rem 2rem;
+    }
+
+    #more-rules h2
+    {
+        font-size: 3rem;
+    }
+
+    #for-parents
+    {
+        padding: 4rem 2rem;
+    }
+
+    #for-parents h2
+    {
+        font-size: 3rem;
+    }
+
+    #for-parents ul
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #emergency
+    {
+        padding: 4rem 2rem;
+    }
+
+    #emergency h2
+    {
+        font-size: 3rem;
+    }
+}
+
 @media screen and (max-width: 768px)
 {
     #rules-header

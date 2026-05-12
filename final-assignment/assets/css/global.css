@@ -185,14 +185,28 @@ nav ul a:hover
     letter-spacing: 0.1em;
 }
 
+@media screen and (max-width: 1024px)
+{
+    nav ul
+    {
+        gap: 1.2rem;
+    }
 
-@media (max-width: 768px) {
+    nav ul a
+    {
+        font-size: 0.85rem;
+    }
+}
 
-    .nav-toggle {
+@media (max-width: 768px)
+{
+    .nav-toggle
+    {
         display: flex;
     }
 
-    nav ul {
+    nav ul
+    {
         display: none;
         flex-direction: column;
         position: fixed;
@@ -204,26 +218,32 @@ nav ul a:hover
         border-bottom: 3px solid #f5c300;
     }
 
-    nav ul.open {
+    nav ul.open
+    {
         display: flex;
     }
 
-    nav ul li {
+    nav ul li
+    {
         padding: 12px 0;
         border-bottom: 1px solid #222;
     }
 
-    nav ul li:last-child {
+    nav ul li:last-child
+    {
         border-bottom: none;
     }
 
-    #site-footer {
+    #site-footer
+    {
         flex-direction: column;
         gap: 40px;
         padding: 40px 20px 0;
     }
 
-    nav img {
+    nav img
+    {
         height: 35px;
         width: auto;
     }
+}
