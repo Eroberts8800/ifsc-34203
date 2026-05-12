@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
     <link rel="manifest" href="assets/icons/site.webmanifest">
+</head>
 
   <body>
     <nav>
@@ -32,8 +33,8 @@
         </button>
     </nav>
 
-<main>
-      
+<main itemscope itemtype="https://schema.org/SportsActivityLocation">
+<meta itemprop="name" content="Concrete Skatepark">
     <header id="location-header">
         <h1>PULL <span>UP</span></h1>
         <p>EVERYTHING YOU NEED TO KNOW BEFORE YOU COME SHRED</p>
@@ -42,14 +43,14 @@
     <section id="location-info" aria-label="Location information">
         <article>
             <h2>LOCATION</h2>
-            <p>415 SKATE PARK LANE</p>
-            <p>SHRED CITY, ST 72012</p>
+            <p itemprop="streetAddress">415 SKATE PARK LANE</p>
+            <p itemprop="addressLocality">SHRED CITY, ST 72012</p>
             <a href="https://maps.google.com/?q=415+Skate+Park+Lane+Shred+City+ST+72012">GET DIRECTIONS</a>
         </article>
         <article>
             <h2>HOURS</h2>
-            <p>MON - FRI: 8AM - 9PM</p>
-            <p>SAT - SUN: 7AM - 10PM</p>
+            <p itemprop="openingHours" content="Mo-Fr 08:00-21:00">MON - FRI: 8AM - 9PM</p>
+            <p itemprop="openingHours" content="Sa-Su 07:00-22:00">SAT - SUN: 7AM - 10PM</p>
             <p>OPEN YEAR-ROUND. WEATHER PERMITTING.</p>
         </article>
         <article>
@@ -110,7 +111,7 @@
     <ul>
         <li>
             <h3>PHONE</h3>
-            <p>(555) 123-4567</p>
+          <p itemprop="telephone">(555) 123-4567</p>
             <p>MON - FRI, 9AM - 5PM</p>
         </li>
         <li>
