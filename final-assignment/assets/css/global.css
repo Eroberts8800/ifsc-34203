@@ -122,7 +122,7 @@ nav ul a:hover
 }
 
 .footer-brand p {
-    font-family: var(--font-nav);
+    font-family: var(--font-body);
     font-size: 0.85rem;
     color: var(--color-text-muted);
     letter-spacing: 0.1em;
@@ -147,7 +147,7 @@ nav ul a:hover
 }
 
 .footer-links ul a {
-    font-family: var(--font-nav);
+    font-family: var(--font-body);
     font-size: 0.85rem;
     color: var(--color-text-muted);
     text-decoration: none;
@@ -163,7 +163,7 @@ nav ul a:hover
 }
 
 .footer-hours p {
-    font-family: var(--font-nav);
+    font-family: var(--font-body);
     font-size: 0.85rem;
     color: var(--color-text-muted);
     letter-spacing: 0.1em;
@@ -179,7 +179,7 @@ nav ul a:hover
 }
 
 .footer-copy p {
-    font-family: var(--font-nav);
+    font-family: var(--font-body);
     font-size: 0.8rem;
     color: var(--color-text-muted);
     letter-spacing: 0.1em;
