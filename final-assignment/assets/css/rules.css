@@ -1,0 +1,444 @@
+#rules-header
+{
+    background-color: var(--color-bg);
+    padding: calc(var(--nav-height) + 3rem) 3rem 4rem;
+    border-bottom: var(--border-bottom);
+    text-align: center;
+}
+
+#rules-header h1
+{
+    font-family: var(--font-nav);
+    font-size: 6rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+#rules-header h1 span
+{
+    color: var(--color-accent);
+}
+
+#rules-header h1::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto;
+}
+
+#rules-header p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+#park-rules
+{
+    background-color: var(--color-bg);
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+#park-rules h2
+{
+    font-family: var(--font-nav);
+    font-size: 3.5rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+}
+
+#park-rules h2 span
+{
+    color: var(--color-accent);
+}
+
+#park-rules h2::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto 3rem;
+}
+
+#park-rules ul
+{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+#park-rules li
+{
+    background-color: #1a1a1a;
+    border: 3px solid var(--color-accent);
+    padding: 2rem;
+    text-align: left;
+}
+
+#park-rules li h3
+{
+    font-family: var(--font-nav);
+    font-size: 1.3rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+#park-rules li p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
+#more-rules
+{
+    background-color: var(--color-bg);
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+#more-rules h2
+{
+    font-family: var(--font-nav);
+    font-size: 3.5rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+}
+
+#more-rules h2 span
+{
+    color: var(--color-accent);
+}
+
+#more-rules h2::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto 3rem;
+}
+
+#more-rules ul
+{
+    list-style: none;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    border: 3px solid var(--color-accent);
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#more-rules li
+{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #333;
+}
+
+#more-rules li:last-child
+{
+    border-bottom: none;
+}
+
+#more-rules li h3
+{
+    font-family: var(--font-nav);
+    font-size: 1.1rem;
+    color: var(--color-accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+
+#more-rules li p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
+#for-parents
+{
+    background-color: var(--color-bg);
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+#for-parents h2
+{
+    font-family: var(--font-nav);
+    font-size: 3.5rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+}
+
+#for-parents h2 span
+{
+    color: var(--color-accent);
+}
+
+#for-parents h2::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-accent);
+    margin: 1rem auto 3rem;
+}
+
+#for-parents ul
+{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+#for-parents li
+{
+    background-color: #1a1a1a;
+    padding: 2rem;
+    text-align: left;
+}
+
+#for-parents li h3
+{
+    font-family: var(--font-nav);
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+}
+
+#for-parents li p
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+#for-parents li.green
+{
+    border: 3px solid #22c55e;
+}
+
+#for-parents li.green h3
+{
+    color: #22c55e;
+}
+
+#for-parents li.blue
+{
+    border: 3px solid #3b82f6;
+}
+
+#for-parents li.blue h3
+{
+    color: #3b82f6;
+}
+
+#for-parents li.yellow
+{
+    border: 3px solid var(--color-accent);
+}
+
+#for-parents li.yellow h3
+{
+    color: var(--color-accent);
+}
+
+#emergency
+{
+    background-color: #cc0000;
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+#emergency div
+{
+    background-color: var(--color-bg);
+    border: 3px solid var(--color-text);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+#emergency h2
+{
+    font-family: var(--font-nav);
+    font-size: 3.5rem;
+    color: var(--color-text);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+}
+
+#emergency h2::after
+{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #cc0000;
+    margin: 1rem auto;
+}
+
+#emergency p
+{
+    font-family: var(--font-nav);
+    font-size: 1rem;
+    color: var(--color-text);
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+}
+
+#emergency ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+#emergency li
+{
+    font-family: var(--font-nav);
+    font-size: 0.85rem;
+    color: var(--color-text);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+#emergency li strong
+{
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 768px)
+{
+    #rules-header
+    {
+        padding: calc(var(--nav-height) + 2rem) 2rem 3rem;
+    }
+
+    #rules-header h1
+    {
+        font-size: 3.5rem;
+    }
+
+    #park-rules
+    {
+        padding: 3rem 2rem;
+    }
+
+    #park-rules h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #park-rules ul
+    {
+        grid-template-columns: 1fr;
+    }
+
+    #more-rules
+    {
+        padding: 3rem 2rem;
+    }
+
+    #more-rules h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #for-parents
+    {
+        padding: 3rem 2rem;
+    }
+
+    #for-parents h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #for-parents ul
+    {
+        grid-template-columns: 1fr;
+    }
+
+    #emergency
+    {
+        padding: 3rem 2rem;
+    }
+
+    #emergency h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #emergency div
+    {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    #rules-header
+    {
+        padding: calc(var(--nav-height) + 1.5rem) 1.5rem 2.5rem;
+    }
+
+    #rules-header h1
+    {
+        font-size: 2.5rem;
+    }
+
+    #park-rules h2
+    {
+        font-size: 2rem;
+    }
+
+    #more-rules h2
+    {
+        font-size: 2rem;
+    }
+
+    #more-rules ul
+    {
+        padding: 1.5rem;
+    }
+
+    #for-parents h2
+    {
+        font-size: 2rem;
+    }
+
+    #emergency h2
+    {
+        font-size: 2rem;
+    }
+}
