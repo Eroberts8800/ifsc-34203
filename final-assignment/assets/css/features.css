@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+body
+{
+    background-color: var(--color-bg);
+}
+
 #features-header h1
 {
     font-family: var(--font-nav);
@@ -58,7 +63,14 @@
 
 #features-list figure:nth-child(even) img
 {
-    order: 2;
+   grid-column: 2;
+   grid-row: 1;
+}
+
+#features-list figure:nth-child(even) figcaption
+{
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #features-list figure img
@@ -175,7 +187,14 @@
 
     #features-list figure:nth-child(even) img
     {
-        order: 0;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #features-list figure:nth-child(even) figcaption
+    {
+        grid-column: 1;
+        grid-row: 2;
     }
 
     #features-list figcaption h2

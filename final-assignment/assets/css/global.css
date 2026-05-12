@@ -16,11 +16,6 @@
     box-sizing: border-box;
 }
  
-body
-{
-    background-color: var(--color-bg);
-}
-
 nav {
     background-color: var(--color-bg);
     border-bottom: var(--border-bottom);
